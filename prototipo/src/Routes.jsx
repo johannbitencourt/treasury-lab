@@ -1,10 +1,10 @@
 import React from 'react'
 import { Switch, Route, Redirect} from 'react-router-dom'
 
-import Home from ''
-import Perfil from ''
-import Perguntas from ''
-import Suporte from ''
+import Home from './pages/Home'
+import Perfil from './pages/Perfil'
+import Perguntas from './pages/Perguntas'
+import Suporte from './pages/Suporte'
 
 export default props =>
   <Switch>
