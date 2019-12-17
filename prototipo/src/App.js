@@ -22,12 +22,8 @@ export default props => (
 <BrowserRouter>
     <ThemeProvider theme={baseTheme}>
         <Root config={config}>
-            <Header />
-            <Nav />
-            <Content>
-            content
-            </Content>
             <Routes />
+            <Nav />
             <Footer />
         </Root>
     </ThemeProvider>
