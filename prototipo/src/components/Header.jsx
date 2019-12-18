@@ -10,6 +10,6 @@ export default props =>
     renderMenuIcon={open => (open ? <ChevronLeft /> : <MenuRounded />)}
     >
         <Typography component="h1" variant="h6" color="inherit" noWrap>
-            {props.children}
+            {props.title}
         </Typography>
     </Header>

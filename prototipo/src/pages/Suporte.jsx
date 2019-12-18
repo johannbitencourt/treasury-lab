@@ -1,9 +1,7 @@
 import React from 'react'
-import Header from '../components/Header'
-import { Content } from 'mui-layout'
+import Main from '../components/Main';
 
 export default props =>
+    <Main title="Suporte">
     
-    <Header {...props}>
-        Suporte
-    </Header>
+    </Main>
