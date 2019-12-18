@@ -13,7 +13,7 @@ import Routes from './Routes'
 import Footer from './components/Footer'
 
 const baseTheme = createMuiTheme();
-const config = presets.createStandardLayout();
+const config = presets.createContentBasedLayout();
 
 export default props => (
 
