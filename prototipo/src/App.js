@@ -5,14 +5,12 @@ import { createMuiTheme } from '@material-ui/core/styles';
 
 import {
  Root,
- Content,
  presets,
 } from 'mui-layout';
 
 import Nav from './components/Nav'
-import Header from './components/Header'
-import Footer from './components/Footer'
 import Routes from './Routes'
+import Footer from './components/Footer'
 
 const baseTheme = createMuiTheme();
 const config = presets.createStandardLayout();

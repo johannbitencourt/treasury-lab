@@ -5,7 +5,7 @@ import ChevronLeft from '@material-ui/icons/ChevronLeft'
 import MenuRounded from '@material-ui/icons/MenuRounded'
 
 export default props => 
-
+    
     <Header
     renderMenuIcon={open => (open ? <ChevronLeft /> : <MenuRounded />)}
     >
