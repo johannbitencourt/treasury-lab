@@ -15,15 +15,14 @@ import Footer from './components/Footer'
 const baseTheme = createMuiTheme();
 const config = presets.createContentBasedLayout();
 
-export default props => (
+export default props =>
 
-<BrowserRouter>
-    <ThemeProvider theme={baseTheme}>
-        <Root config={config}>
-            <Routes />
-            <Nav />
-            <Footer />
-        </Root>
-    </ThemeProvider>
-</BrowserRouter>
-)
+    <BrowserRouter>
+        <ThemeProvider theme={baseTheme}>
+            <Root config={config}>
+                <Routes />
+                <Nav />
+                <Footer />
+            </Root>
+        </ThemeProvider>
+    </BrowserRouter>
